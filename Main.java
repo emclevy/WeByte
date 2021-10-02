@@ -18,8 +18,8 @@ public class Main {
 	
 		
 		public static void main(String[] args) {
-			// TODO Auto-generated method stub
-	/*
+	
+			//Splash Screen
 			JWindow screen = new JWindow();
 			screen.getContentPane().add(new JLabel(new ImageIcon("logo.jpg")), SwingConstants.CENTER);
 			screen.setBounds(0, 0, 1366, 869);
@@ -29,7 +29,7 @@ public class Main {
 			} catch (InterruptedException e) {
 			    
 			}
-			screen.setVisible(false);*/
+			screen.setVisible(false);
 			//JTextArea enterNames = new JTextArea(4, 20);
 			
 			//enterNames.setBackground(Color.GREEN);
