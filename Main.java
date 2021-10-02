@@ -34,7 +34,8 @@ public class Main {
 			
 			//enterNames.setBackground(Color.GREEN);
 			String[] colNames = {"ID", "NAME"};
-			String[][] rowData = {{"1111","testName"},{"123","testName2"}};
+			String[][] rowData = {{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},
+			{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},{"",""},{"",""}};
 			//JTable enterGreen = new JTable(rowData, colNames);
 			//JTable enterRed = new JTable(20, 2);
 			
@@ -44,9 +45,9 @@ public class Main {
 			JTable enterGreen = new JTable(enter1Green);
 			JTable enterRed = new JTable(enter1Red);
 			
-			//enterGreen.setBackground(Color.GREEN);
+			enterGreen.setBackground(Color.GREEN);
 			enterRed.setBackground(Color.RED);
-			//enterGreen.setTableHeader(new JTableHeader());
+			enterGreen.setTableHeader(new JTableHeader());
 			enterGreen.setFillsViewportHeight(true);
 			enterGreen.setAlignmentX(0);
 			enterGreen.setAlignmentY(0);
@@ -56,6 +57,7 @@ public class Main {
 			JFrame frame = new JFrame();
 			frame.add(nameScreen);
 			frame.setSize(1366,869);
+			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setVisible(true);
 			/*enterGreen.getModel().addTableModelListener(new TableModelListener()
 					{
